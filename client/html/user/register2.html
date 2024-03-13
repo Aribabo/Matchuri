@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+    <link rel="stylesheet" href="../../css/layout.css" />
+    <script src="../../js/layout.js" defer></script>
+    <script src="../../js/user/register2.js" defer></script>
+    <title>회원가입 정보입력</title>
+</head>
+<body>
+    <div id="register2">
+        <div class="inner-wrap">
+            <header>
+                <div class="inner-header">
+                    <button type="button" onclick="location.href='login.html'"><i class="xi-arrow-left txt-gray"></i></button>
+                    <p class="txt-gray page-tit">회원가입 정보입력</p>
+                </div>
+            </header>
+            <main>
+                <h2 class="page-tit"><span class="txt-point">새로운 계정을</span><br>만들어보세요</h2>
+                <div class="input-wrap">
+                    <form action="">
+                        <div class="input-area">
+                            <label for="id">아이디 <span class="deco"></span></label>
+                            <div class="flex">
+                                <input type="hidden" name="" value="n" id="idHidden">
+                                <input type="text" name="userId" id="userId" class="txt-box" placeholder="아이디를 입력해주세요">
+                                <button type="button" class="black-btn" id="idCheckBtn">중복검사</button>
+                            </div>
+                            <p class="error txt-point2">아이디를 확인해주세요.</p>
+                        </div>
+                        <div class="input-area">
+                            <label for="id">비밀번호 <span class="deco"></span></label>
+                            <input type="password" name="password" id="password" class="txt-box" placeholder="비밀번호를 입력해주세요">
+                            <p class="error txt-point2">비밀번호를 확인해주세요</p>
+                        </div>
+                        <div class="input-area">
+                            <label for="id">비밀번호 확인 <span class="deco"></span></label>
+                            <div class="pwcheck-area">
+                                <input type="password" name="passwordCheck" id="passwordCheck" class="txt-box" placeholder="비밀번호를 입력해주세요">
+                                <span class="deco"><img src="../../img/check_icon.png" alt=""></span>
+                            </div>
+                            <p class="error txt-point2">비밀번호가 일치하지 않습니다.</p>
+                        </div>
+                        <div class="input-area">
+                            <label for="id">핸드폰 인증 <span class="deco"></span></label>
+                            <input type="text" name="HP" id="HP" class="txt-box" placeholder="핸드폰 번호를 입력해주세요">
+                            <p class="error txt-point2"></p>
+                            <button type="button" class="black-btn hp-check" id="hpCheckBtn" disabled>인증번호 발송</button>
+                        </div>
+                        <div class="input-area hp-auth">
+                            <label for="id">인증번호 인증 <span class="deco"></span></label>
+                            <div class="hp-ck-area">
+                                <input type="text" name="" id="hpAuth" class="txt-box" placeholder="인증번호를 입력해주세요">
+                                <input type="hidden" name="" value="n" id="hpAuthCheck">
+                                <p class="error txt-point2">핸드폰번호를 인증해주세요</p>
+                                <!-- <span class="txt-point time">5:00</span> -->
+                            </div>
+                            <button type="button" class="black-btn hp-check" id="authCheckBtn">인증번호 인증</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="btn-wrap join">
+                    <button type="button" class="grad-btn" onclick="registCheck()">회원가입</button>
+                </div>
+            </main>
+        </div>
+    </div>
+    <div class="layer-pop" id="regist2Layer">
+        <div class="bg" onclick="layerOut('regist2Layer')"></div>
+        <div class="inner-layer" id="checkunreg">
+          <p class="txt-wrap"><span class="txt-point">필수사항</span>을<br>체크해주세요.</p>
+          <div class="btn-wrap two">
+            <button type="button" class="black-btn" onclick="layerOut('regist2Layer')">닫기</button>
+          </div>
+        </div>
+    </div>  
+</body>
+</html>

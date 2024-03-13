@@ -1,0 +1,210 @@
+@import url('./reset.css'); /*리셋 css*/
+@import url('./common.css'); /*공통 css*/
+
+/* 로그인 회원가입 메인페이지 */
+#userMain{text-align: center;}
+#userMain .inner-wrap{height: 100vh; padding: 3.57rem 2.142rem 6.57rem; box-sizing: border-box;}
+#userMain main{display: flex; flex-direction: column; justify-content: space-between; height: 100%;}
+#userMain .top{flex:2; display: flex; flex-direction: column; justify-content: center;}
+#userMain .logo{width: 100%; max-width: 40%; min-width: 11.4rem; margin: 0 auto; margin-bottom: 1.42rem; font-size: 1rem;}
+#userMain .top p{font-size: 1rem;}
+#userMain .bottom p{font-size: 1rem; margin-top: 2.85rem;}
+#userMain .btn-wrap a + a{margin-top: 1rem;}
+
+/* 로그인 */
+#login .inner-wrap{height: 100vh; padding: 0 0 6.57rem; box-sizing: border-box;}
+#login main{padding: 0 2.14rem; display: flex; flex-direction: column; justify-content: space-between; height: calc(100% - 7.14rem); box-sizing: border-box;}
+#login .top{flex: 2; display: flex; flex-direction: column; justify-content: center;}
+#login .logo{width: 100%; max-width: 40%; min-width: 11.4rem; margin: 0 auto; margin-bottom: 1.42rem; font-size: 1rem;}
+#login .top p{font-size: 1rem; text-align: center;}
+#login .btn-wrap{margin-top: 2.85rem;}
+#login .bottom p{font-size: 1rem; margin-top: 2.85rem; text-align: center;}
+
+/* 회원가입-이용약관 */
+#register1 .inner-wrap{height: 100vh; padding: 0 0 6.57rem; box-sizing: border-box;}
+#register1 main{padding: 0 2.14rem; height: calc(100% - 7.14rem); box-sizing: border-box; display: flex; flex-direction: column; justify-content: space-between; height: calc(100% - 7.14rem);}
+#register1 .agree-wrap{margin-top: 1.5rem; flex: 2;}
+#register1 li + li{margin-top: 1.2rem;}
+#register1 li .agree-box{display: flex; justify-content: space-between; align-items: center; background: var(--lgray-color); padding:1.8rem 3rem; border-radius: 50px;}
+#register1 li .agree-box.active{border: 1px solid var(--point-color2);}
+#register1 li .agree-box label{font-size: 1.2rem; color: var(--gray-color);}
+#register1 li .agree-box span{font-size: 1.2rem;}
+#register1 li .view{background: var(--lpurple-color); border-radius: 1.42rem; box-sizing: border-box; padding: 2.8rem; margin-top: 1.2rem; height: 20rem; display: none;}
+#register1 li .agree-box.active + .view{display: block;}
+#register1 li .view h3{font-size: 1.2rem; font-weight: bold; margin-bottom: 1.2rem; color: var(--gray-color);}
+#register1 li .view p{font-size: 1.2rem; line-height: 1.6rem; height: 80%; overflow-y: scroll;}
+#register1 .btn-wrap{margin-top: 7.14rem;}
+
+/* 회원가입-정보입력 */
+#register2 .inner-wrap{height: 100vh; padding: 0 0 6.57rem; box-sizing: border-box;}
+#register2 main{padding: 0 2.14rem; min-height: calc(100% - 7.14rem); box-sizing: border-box; display: flex; flex-direction: column; justify-content: space-between; height: auto;}
+#register2 .input-wrap{margin-top: 1.5rem; flex: 2;}
+#register2 .input-area label{font-size: 1rem; margin-left: 1rem; display: inline-block; margin-bottom: 1rem; position: relative;}
+#register2 .input-area label span{width: 4px; height: 4px; background: var(--yellow-color); border-radius: 50%; display: inline-block; position: absolute; right: -0.6rem;}
+#register2 .flex{display: flex; justify-content: space-between; align-items: center;}
+#register2 .flex button{width: 40%; margin-left: 0.87rem;}
+#register2 .btn-wrap.join{margin-bottom: 3.57rem;}
+#register2 .error{font-size: 1rem; margin-left: 1.42rem; margin-top: 0.357rem; display: none;}
+
+/* 비밀번호 확인 */
+#register2 .pwcheck-area{position: relative;}
+#register2 .deco{width: 2.14rem; height: 2.14rem; display: flex; align-items: center; justify-content: center; background: var(--gray-color); border-radius: 50%; position: absolute; right: 2.14rem; top: 50%; transform: translateY(-50%);}
+#register2 .deco.active{background: var(--grad-color);}
+#register2 .deco img{display: block; width: 50%; height: auto;}
+#register2 .btn-wrap{margin-top: 5.14rem;}
+#register2 .hp-check{margin-top: 0.8rem;}
+#register2 .hp-check:disabled{background: var(--gray-color);}
+#register2 .hp-ck-area{position: relative;}
+#register2 .hp-ck-area .time{position: absolute; right: 2.14rem; top: 50%; transform: translateY(-50%); font-size: 1rem;}
+
+/* 인증번호 */
+#register2 .hp-auth{display: none;}
+#register2 .hp-auth.active{display: block;}
+
+/* 회원가입 완료 */
+#registerOk{text-align: center;}
+#registerOk .inner-wrap{height: 100vh; padding: 3.57rem 2.142rem 6.57rem; box-sizing: border-box;}
+#registerOk main{height: 100%; display: flex; flex-direction: column; align-items: center; width: 100%; justify-content: center;}
+#registerOk .text-wrap{width: 100%;}
+#registerOk .logo{width: 100%; max-width: 40%; min-width: 11.4rem; margin: 0 auto; margin-bottom: 5.28rem; font-size: 1rem;}
+#registerOk p{margin-bottom: 3.57rem;}
+#registerOk p,
+#registerOk span{font-family: 'seolleimcool' !important; font-size: 1.857rem;}
+#registerOk .btn-wrap a{width: 100%;}
+
+/* 메인페이지 */
+#index header{padding: 1rem 2.142rem; box-shadow: 0 0 0.714rem #0001;}
+#index header .logo{max-width: 7.14rem; min-width: 7.14rem;}
+#index main{padding: 5.714rem 2.142rem 2.142rem; box-sizing: border-box;}
+#index .top{display: flex; justify-content: space-between; padding-bottom: 2.857rem; border-bottom: 1px solid var(--gray-color); margin-bottom: 3.57rem;}
+#index h2.page-tit{margin: 0px 0 1.42rem; font-size: 2.857rem;}
+#index h2.page-tit span{font-size: 2.857rem;}
+#index .top .left p{font-size: 1rem;}
+#index .top .right{display: flex; flex-direction: column; align-items: center; justify-content: space-between ;}
+#index .top .b-ico{margin-bottom: 1.42rem;}
+#index .top .name{padding: 0.35rem 0.714rem; background: var(--yellow-color); border-radius: 50px; text-align: center; font-size: 1rem;}
+
+/* 메인페이지 하단 */
+#index .bottom ul{display: flex; justify-content: space-between; align-items: center; text-align: center; margin-bottom: 1.42rem;}
+#index .bottom ul li:first-child{width: 45%; margin-right: 1.42rem;}
+#index .bottom ul li:last-child {width: 55%;}
+#index .bottom .tit{font-size: 1rem; margin-bottom: 0.714rem; font-weight: 500; text-align: left; margin-left: 0.714rem;}
+#index .bottom .cont{width: 100%; height: 16.6rem; box-shadow: 0 0 0.714rem #0001; border-radius: 1.428rem; padding: 2.14rem; box-sizing: border-box; background:#fff;}
+#index .bottom .cont{display: flex; align-items: center; justify-content: center;}
+#index .bottom ul li:last-child .cont {background: var(--grad-color);}
+
+/* 완료한 스테이지 */
+#index .bottom li:first-child .num{font-size: 1.42rem; font-family: 'seolleimcool', 'Pretendard' !important;}
+#index .bottom li:first-child .num span{font-size: 4.07rem; font-family: 'seolleimcool', 'Pretendard' !important;}
+#index .bottom li:first-child .num + div{font-size: 1.42rem; font-family: 'seolleimcool', 'Pretendard' !important;}
+
+/* 내가하던 스테이지 */
+#index .bottom li:last-child .cont div{width: 100%; font-family: 'seolleimcool', 'Pretendard' !important;}
+#index .bottom li:last-child .cate{background: #fff; padding: 0.35rem 0.714rem; width: 100%; border-radius: 50px; box-sizing: border-box; font-size: 1.42rem; margin-bottom: 1rem;}
+#index .bottom li:last-child .cate + div{font-size: 1.428rem; color: #fff;}
+#index .bottom li:last-child  .num{font-size: 4.07rem; color: #fff; font-family: 'seolleimcool', 'Pretendard' !important;}
+#index .bottom li:last-child .star{font-size: 2.14rem; color: var(--yellow-color);margin-top: 1.42rem}
+
+/* 메인페이지 버튼 */
+#index .bottom .btn-wrap a{margin-top: 1.42rem; display: block;}
+
+/* 메인페이지 레이어 */
+#continueLayer .btn-wrap{display: block;}
+#continueLayer .btn-wrap button{width: 100%;}
+#continueLayer .btn-wrap button:first-child{margin-bottom: 0.5rem;}
+#continueLayer .btn-wrap div{display: flex; justify-content: space-between;}
+#continueLayer .btn-wrap div button + button{margin-left: 0.5rem;}
+
+
+/* 스테이지 */
+#stage main{padding: 5.714rem 2.142rem 2.142rem; box-sizing: border-box;}
+#stage .top{display: flex; justify-content: space-between; padding-bottom: 2.857rem; border-bottom: 1px solid var(--gray-color); margin-bottom: 3.57rem;}
+#stage h2.page-tit{margin: 0px 0 1.42rem; font-size: 2.857rem;}
+#stage h2.page-tit span{font-size: 2.857rem;}
+#stage .top .left p{font-size: 1.28rem; color: var(--gray-color);}
+#stage .top .m-ico{margin-bottom: 1.42rem; width: 8.42rem; height: 8.42rem;}
+#stage .top .name{padding: 0.35rem 0.714rem; background: var(--yellow-color); border-radius: 50px; text-align: center;}
+
+/* 스테이지 리스트 */
+#stage ul{display: flex; justify-content: space-between; flex-wrap: wrap;}
+#stage ul li{width: calc(50% - 0.714rem); background: var(--lgray-color); border-radius: 1.42rem; padding: 2.142rem; box-sizing: border-box; position: relative; overflow: hidden; margin-bottom: 1.42rem; cursor: pointer;}
+#stage ul li:nth-child(even){margin-left: 1.42rem;}
+#stage ul li div{ font-family: 'seolleimcool', 'Pretendard' !important; text-align: center;}
+#stage ul li .stage-num{margin-bottom: 1rem;}
+#stage ul li .stage-num div{font-size: 1.142rem;}
+#stage ul li .stage-num .num{font-size: 3.42rem;}
+#stage ul li .star{color: var(--yellow-color); font-size: 1.714rem; margin-bottom: 1rem;}
+#stage ul li .cate{font-size: 1.142rem; background: var(--point-color); border-radius: 50px; color: #fff; padding: 0.35rem 0.714rem;}
+
+/* 스테이지 레이어 */
+#stageLayer .btn-wrap{display: block;}
+#stageLayer .btn-wrap button{width: 100%;}
+#stageLayer .btn-wrap button:first-child{margin-bottom: 0.5rem;}
+#stageLayer .btn-wrap div{display: flex; justify-content: space-between;}
+#stageLayer .btn-wrap div button + button{margin-left: 0rem;}
+
+/* 라벨 */
+#stage ul li.finish .label{position: absolute; width: 100%; height: 100%; background: #0003; top: 0; left: 0;}
+#stage ul li.finish .label div{width: 100%;height: 50%;background: var(--yellow-color);transform: rotate(-46deg);position: absolute; left: -6rem; top: -1.428rem; position: relative;}
+#stage ul li.finish .label span{color: #fff; font-family: 'seolleimcool', 'Pretendard' !important; position: absolute; left: 7.14rem; top: 4.28rem; transform: rotate(45deg); font-size: 1.25rem;}
+
+#stage ul li.during .label{position: absolute; width: 100%; height: 100%; top: 0; left: 0;}
+#stage ul li.during .label div{width: 100%;height: 50%;background: var(--grad-color);transform: rotate(-46deg);position: absolute; left: -6rem; top: -1.428rem; position: relative;}
+#stage ul li.during .label span{color: #fff; font-family: 'seolleimcool', 'Pretendard' !important; position: absolute; left: 6rem; top: 4.8rem; transform: rotate(45deg); font-size: 1.25rem;}
+
+/* 채팅 */
+#chat{height: 100vh;}
+#chat .inner-wrap{display: flex; flex-direction: column; justify-content: space-between;}
+#chat header{padding: 0px; position: fixed; left: 0; top: 0; z-index: 1; width: 100%;}
+#chat .inner-header{position: relative; display: flex; justify-content: space-between; align-items: center; padding: 2.14rem; box-shadow: 0 0 0.714rem #0001; box-sizing: border-box; background: #fff;}
+#chat header .right span{font-size: 1rem;}
+#chat header .right .star{color: var(--yellow-color);}
+#chat header .right span + span::before{content: '|'; color: var(--gray-color); display: inline-block; margin: 0 0.714rem;}
+#chat header .util-btn{position: absolute;left: 50%; transform: translateX(-50%); background: var(--grad-color); width: 8.57rem; padding: 0.142rem; border-radius: 0 0 2.857rem 2.857rem; text-align: center; cursor: pointer;}
+#chat header .util-btn i{color: #fff; font-size: 1.2rem;}
+#chat header .util-wrap{display: none; justify-content: space-between; box-sizing: border-box; padding: 1.42rem; background: #fff8;}
+#chat header .util-wrap.fadeIn{display: flex !important;}
+#chat header .util-wrap button{width: 50%; border: 1px solid var(--gray-color); border-radius: 5px; padding: 1rem 1.42rem; color: var(--gray-color); background: #fff; font-size: 1rem;}
+#chat header .util-wrap button:first-child{margin-right: 0.714rem; border-color: var(--point-color); color: var(--point-color);}
+#chat main{background: #fff; flex: 2;}
+#chat .inner-main{padding: 2.142rem; position: relative; margin-top: 8.571rem;}
+#chat .m-ico,
+#chat .b-ico
+{width: 4.28rem; height: 4.28rem;}
+#chat .b-ico{right: 1.428rem;}
+#chat .inner-main ul{width: 100%;}
+#chat .inner-main li + li{margin-top: 1.5rem;}
+#chat .inner-main{display: flex;}
+#chat .inner-main .m-ico, #chat .inner-main .b-ico{position: absolute;}
+#chat .inner-main .txt-area{margin-left: 5.2rem}
+#chat .inner-main .txt-area .name{font-family: 'seolleimcool', 'Pretendard' !important; font-size: 1.2rem; margin: 5px 0;}
+#chat .inner-main .txt-area .txt{background: var(--lgray-color); padding: 1.428rem; border-radius: 0.714rem;; width: fit-content; height: auto; font-size: 1.2rem; max-width: 70%; line-height: 1.8rem;}
+#chat .inner-main .txt-area .txt span{font-size: 1.2rem; line-height: 1.8rem;}
+#chat .inner-main .me .txt-area .txt{background: var(--point-color); color: #fff; margin-left: auto; text-align: left;}
+#chat .inner-main .txt-area .date{font-size: 1rem; color: var(--gray-color); margin-top: 5px;}
+#chat .inner-main .me .txt-area{margin-right: 5.2rem;text-align: right;}
+
+/* 힌트 정답 버튼 */
+#chat .bottom-wrap{width: 100%; position: sticky; left: 0; bottom: 0; padding: 2.14rem; box-sizing: border-box;}
+#chat .bottom-wrap .util-wrap{display: flex; position: relative; right: 1rem; border-radius: 50px; box-shadow: 0 0 10px #0001; width: max-content; margin-left: auto; margin-bottom: 1.42rem; background: #fff;}
+#chat .bottom-wrap .hint-answer-btn{width: 2.857rem; height: 2.857rem; border-radius: 50%; background: var(--grad-color);}
+#chat .bottom-wrap .hint-answer-btn i{color: #fff; font-size: 1.5rem;}
+#chat .bottom-wrap .btn-wrap{width: auto; width: 8rem; height: 2.857rem; padding-left: 1.42rem; box-sizing: border-box; display: none;}
+#chat .bottom-wrap .btn-wrap button{line-height: 2.857rem; font-size: 1rem;}
+#chat .bottom-wrap .btn-wrap button + button::before{content: '|'; margin: 0 0.714rem 0 0.357rem; display: inline-block;}
+/* 채팅창 */
+#chat .chat-text-area{width: 100%; border: 1px solid var(--point-color); border-radius: 1.42rem; padding: 1rem 1.42rem; box-sizing: border-box; background: #fff;}
+#chat .chat-text-area .textbox{display: flex; justify-content: space-between; align-items: end;}
+#chat textarea{width: 100%; height: 2.42rem; line-height: 2.42rem; resize: none !important; color: var(--gray-color); font-size: 1rem; outline: none;}
+#chat textarea::placeholder{font-size: 1rem;}
+#chat .chat-btn{display: flex; align-items: center; justify-content: center; background: var(--gray-color); width: 2.42rem; height: 2.42rem; border-radius: 50%;}
+#chat .chat-btn.active{background: var(--grad-color);}
+#chat .chat-btn i{color: #fff; font-size: 1rem;}
+
+/* 문제해설 */
+#chat .answer-wrap{padding: 2.142rem; box-sizing: border-box; display: none;}
+#chat .a-tit{font-size: 1.2rem; margin-bottom: 10px; font-weight: 500;}
+#chat .a-text{background: var(--lpurple-color); font-size: 1.2rem; line-height: 2rem; padding: 2rem; box-sizing: border-box; border-radius: 10px;}
+#chat hr{margin: 5rem 0; color: var(--gray-color);}
+#chat .chat-close{text-align: center; font-size: 1.2rem; padding: 1.5rem 0; background: var(--lpurple-color); border-radius: 50px; color: var(--point-color2);}
+#chat .close-chat-btn{background: var(--grad-color); width: 100%; padding: 1.5rem; color: #fff; border-radius: 5px; font-size: 1.2rem;}

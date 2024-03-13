@@ -1,0 +1,6 @@
+[ modelStroage 폴더에 모델을 넣어주시면됩니다. ]
+
+< 순서 >
+
+모델 실험실 -> 모델 저장 -> skt-kogpt2-base-v2-0206-cuda.pth 다운로드 -> MATCHURI/server/server_python/modelStorage 에 저장
+-> 파이썬 서버와 노드 서버 동시 실행

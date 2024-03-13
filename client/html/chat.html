@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+    <link rel="stylesheet" href="../css/layout.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://rawgit.com/jackmoore/autosize/master/dist/autosize.min.js" defer></script>
+    <script src="../js/layout.js" defer></script>
+    <script src="../js/chat.js" defer></script>
+    <title>채팅</title>
+  </head>
+  <body>
+    <div id="chat">
+        <div class="inner-wrap">
+            <header>
+                <div class="inner-header">
+                    <button type="button" id="backBtn"><i class="xi-arrow-left txt-gray"></i></button>
+                    <p class="txt-gray page-tit"></p>
+                    <div class="right">
+                        <span class="cate txt-point"></span>
+                        <span class="star"></span>
+                    </div>
+                </div>
+                <div class="util-wrap">
+                    <button type="button" id="savingBtn">저장하기</button>
+                    <button type="button" id="resetBtn" onclick="reset()">초기화</button>
+                </div>
+                <div class="util-btn"><i class="xi-angle-down"></i></div>
+            </header>
+            <main>
+                <div class="inner-main">
+                    <ul id="chatUl">
+                        <li class="bot">
+                            <div class="m-ico"></div>
+                            <div class="txt-area">
+                                <div class="name">마추리</div>
+                                <div class="txt">
+                                    안녕ㅎㅎㅎ
+                                </div>
+                                <div class="date">오후 5시 52분</div>
+                            </div>
+                        </li>
+                        <li class="me">
+                            <div class="b-ico"></div>
+                            <div class="txt-area">
+                                <div class="name">브리튼</div>
+                                <div class="txt">
+                                    안녕ㅎㅎㅎ
+                                </div>
+                                <div class="date">오후 5시 52분</div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="answer-wrap">
+                    <div class="a-tit">문제해설</div>
+                    <div class="a-text">
+                    </div>
+                    <hr>
+                    <div class="chat-close">채팅이 종료되었습니다.</div>
+                </div>
+            </main>
+            <div class="bottom-wrap">
+                <div class="util-wrap">
+                    <div class="btn-wrap">
+                        <button type="button" id="hintBtn" class="txt-gray">힌트</button>
+                        <button type="button" id="answerBtn" class="txt-point">정답</button>
+                    </div>
+                    <button type="button" class="hint-answer-btn"><i class="xi-lightbulb-o"></i></button>
+                </div>
+                <div class="chat-text-area">
+                    <div class="textbox">
+                        <textarea name="" id="textArea" cols="30" rows="10" placeholder="메세지를 입력해주세요."></textarea>
+                        <button type="button" class="chat-btn" id="chatGo" disabled><i class="xi-arrow-up"></i></button>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <div class="layer-pop" id="chatLayer">
+        <div class="bg" onclick="layerOut('chatLayer')"></div>
+        <div class="inner-layer" id="checkunreg">
+          <p class="txt-wrap">다시하면<span class="txt-point"> 데이터가 초기화</span>됩니다.<br>다시 하시겠습니까? </p>
+          <div class="btn-wrap two">
+            <button type="button" class="grad-btn">다시하기</button>
+            <button type="button" class="black-btn" onclick="layerOut('chatLayer')">닫기</button>
+          </div>
+        </div>
+    </div>   
+  </body>
+</html>

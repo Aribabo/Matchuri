@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+    <link rel="stylesheet" href="../../css/layout.css" />
+    <script src="../../js/layout.js" defer></script>
+    <script src="../../js/user/register1.js" defer></script>
+    <title>회원가입 이용약관</title>
+</head>
+<body>
+    <div id="register1">
+        <div class="inner-wrap">
+            <header>
+                <div class="inner-header">
+                    <button type="button" onclick="location.href='login.html'"><i class="xi-arrow-left txt-gray"></i></button>
+                    <p class="txt-gray page-tit">회원가입 이용약관</p>
+                </div>
+            </header>
+            <main>
+                <h2 class="page-tit"><span class="txt-point">새로운 계정을</span><br>만들어보세요</h2>
+                <div class="agree-wrap">
+                    <ul>
+                        <li onclick="viewMore(event, this)" class="lis">
+                            <div class="agree-box">
+                                <label for="agree1">서비스 이용약관 동의 <span class="txt-point2">(필수)</span></label>
+                                <input type="checkbox" name="" id="agree1" class="type1">
+                            </div>
+                            <div class="view">
+                                <h3>서비스 이용약관</h3>
+                                <p>
+                                    서비스 이용약관 서비스 이용약관서비스 이용약관서비스 이용약관서비스 이용약관서비스 이용약관서비스 이용약관서비스 이용약관서비스 이용약관서비스 이용약관서비스 이용약관서비스 이용약관서비스 이용약관서비스 이용약관서비스 이용약관서비스 이용약관서비스 이용약관서비스 이용약관서비스 이용약관 서비스 이용약관서비스 이용약관서비스 이용약관서비스 이용약관서비스 이용약관
+                                    서비스 이용약관 서비스 이용약관서비스 이용약관서비스 이용약관서비스 이용약관서비스 이용약관서비스 이용약관서비스 이용약관서비스 이용약관서비스 이용약관서비스 이용약관서비스 이용약관서비스 이용약관서비스 이용약관서비스 이용약관서비스 이용약관서비스 이용약관서비스 이용약관서비스 이용약관 서비스 이용약관서비스 이용약관서비스 이용약관서비스 이용약관서비스 이용약관
+                                </p>
+                            </div>
+                        </li>
+                        <li onclick="viewMore(event, this)" class="lis">
+                            <div class="agree-box">
+                                <label for="agree1">개인정보 처리방침 동의 <span class="txt-point2">(필수)</span></label>
+                                <input type="checkbox" name="" id="agree1" class="type1">
+                            </div>
+                            <div class="view">
+                                <h3>개인정보 처리방침</h3>
+                                <p>
+                                    개인정보 처리방침개인정보 처리방침개인정보 처리방침개인정보 처리방침개인정보 처리방침개인정보 처리방침개인정보 처리방침개인정보 처리방침개인정보 처리방침개인정보 처리방침개인정보 처리방침개인정보 처리방침개인정보 처리방침
+                                    개인정보 처리방침개인정보 처리방침개인정보 처리방침개인정보 처리방침개인정보 처리방침개인정보 처리방침개인정보 처리방침개인정보 처리방침개인정보 처리방침개인정보 처리방침개인정보 처리방침개인정보 처리방침개인정보 처리방침
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="btn-wrap">
+                    <button type="button" class="grad-btn" onclick="agreeCheck()">정보입력</button>
+                </div>
+            </main>
+        </div>
+    </div>
+    <div class="layer-pop" id="agreeLayer">
+        <div class="bg" onclick="layerOut('agreeLayer')"></div>
+        <div class="inner-layer" id="checkunreg">
+          <p class="txt-wrap"><span class="txt-point">필수사항</span>을<br>체크해주세요.</p>
+          <div class="btn-wrap two">
+            <button type="button" class="black-btn" onclick="layerOut('agreeLayer')">닫기</button>
+          </div>
+        </div>
+    </div>  
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+    <link rel="stylesheet" href="../css/layout.css" />
+    <script src="../js/layout.js" defer></script>
+    <script src="../js/stage.js" defer></script>
+    <title>스테이지페이지</title>
+  </head>
+  <body>
+    <div id="stage">
+        <div class="inner-wrap">
+            <header>
+                <div class="inner-header">
+                    <button type="button" onclick="location.href='./index.html'"><i class="xi-arrow-left txt-gray"></i></button>
+                    <p class="txt-gray page-tit">스테이지</p>
+                </div>
+            </header>
+            <main>
+                <div class="top">
+                    <div class="left">
+                        <p>브리튼</p>
+                        <h2 class="page-tit">어떤 <span class="txt-point">사건</span>을<br>해결해볼래?</h2>
+                    </div>
+                    <div class="right">
+                    <div class="m-ico"></div>
+                    </div>
+                </div>
+                <div class="bottom">
+                    <ul>
+                    </ul>
+                </div>
+            </main>
+        </div>
+    </div>
+    <div class="layer-pop" id="stageLayer">
+        <div class="bg" onclick="layerOut('stageLayer')"></div>
+        <div class="inner-layer" id="checkunreg">
+          <p class="txt-wrap">다시하면<span class="txt-point"> 데이터가 초기화</span>됩니다.<br>다시 하시겠습니까?</p>
+          <div class="btn-wrap two">
+            <button type="button" class="grad-btn">다시하기</button>
+            <button type="button" class="black-btn" onclick="layerOut('stageLayer')">닫기</button>
+          </div>
+        </div>
+    </div>   
+  </body>
+</html>

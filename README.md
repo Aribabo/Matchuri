@@ -23,7 +23,51 @@
 
 
  
-<h3>📌 사용 데이터셋 </h3>  
+<h3>📌 사용 데이터셋 및 모델 </h3>  
 
-* 직접 작성한 질문-답 데이터셋
+#### ◾ 직접 작성한 질문-답 데이터셋
+<img src="https://github.com/Aribabo/Matchuri/assets/137020870/0b9ce052-f534-45b5-b4ba-c28cb82abcf9" height="300">
 
+#### ◾ GPT2 : skt/kogpt2-base-v2
+<img src="https://github.com/Aribabo/Matchuri/assets/137020870/d8498ae8-dedc-4050-bcfe-ed7bc428f3d6" height="300">
+
+#### ◾ roBERTa
+<img src="https://github.com/Aribabo/Matchuri/assets/137020870/4979cdcf-e447-4d4b-b51e-0393d02f881a" height="300">
+
+
+<h3>✨ 알고리즘 </h3>  
+
+<p>
+  <img src="https://github.com/Aribabo/Matchuri/assets/137020870/96359082-441a-4fa4-ab06-937fa36ec960" height="300">
+  <img src="https://github.com/Aribabo/Matchuri/assets/137020870/04e18c6d-d46b-4324-a7c1-719dff462bb2" height="300">
+</p>
+
+<h3>💻 서비스 화면</h3>
+<p>
+
+  <img src="https://github.com/Aribabo/Matchuri/assets/137020870/4dc3aba7-1b15-491a-9286-d4d3b2b2e7c0" height="300">
+  <img src="https://github.com/Aribabo/Matchuri/assets/137020870/c1d95388-d584-44ec-b765-debe5272c0a3"height="290">
+
+</p>
+
+
+<h3> 🛠️ 개발환경 및 툴 </h3>
+<p>
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white"/>&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white"/>&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white"/>&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/JavaScript-gray?style=flat&logo=JavaScript&logoColor=F7DF1E"/>&nbsp;&nbsp;
+</p>
+
+<p>
+  <img src="https://img.shields.io/badge/pyCharm-000000?style=flat&logo=pycharm&logoColor=white"/>&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/Google Colab-F9AB00?style=flat-square&logo=Google Colab&logoColor=white"/>&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/VScode-007ACC?style=flat&logo=visualstudiocode&logoColor=white"/>&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=MongoDB&logoColor=white"/>&nbsp;&nbsp;
+
+
+  
+  <img src="https://img.shields.io/badge/Slack-4A154B?style=flat&logo=Slack&logoColor=white"/>&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/Discord-5865F2?style=flat&logo=Discord&logoColor=white"/>
+  
+</p>

@@ -25,6 +25,8 @@
 <img src="https://github.com/Aribabo/Matchuri/assets/137020870/0b9ce052-f534-45b5-b4ba-c28cb82abcf9" width="700">
 
 #### ◾ GPT2 : skt/kogpt2-base-v2
+✔[GPT2 학습 코드](https://github.com/Aribabo/Matchuri/blob/main/GPT2_%ED%95%99%EC%8A%B5%EC%BD%94%EB%93%9C.ipynb) ❗❗
+
 <img src="https://github.com/Aribabo/Matchuri/assets/137020870/d8498ae8-dedc-4050-bcfe-ed7bc428f3d6" width="700">
 
 #### ◾ roBERTa
@@ -32,6 +34,8 @@
 
 
 <h3>✨ 알고리즘 </h3>  
+
+✔[최종 모델 출력 코드](https://github.com/Aribabo/Matchuri/blob/main/%EB%AA%A8%EB%8D%B8_%EA%B2%B0%EA%B3%BC_%ED%99%95%EC%9D%B8%EC%9A%A9.ipynb) ❗❗
 
 <p>
   <img src="https://github.com/Aribabo/Matchuri/assets/137020870/96359082-441a-4fa4-ab06-937fa36ec960" width="700">

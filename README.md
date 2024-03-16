@@ -29,7 +29,7 @@
 
 <img src="https://github.com/Aribabo/Matchuri/assets/137020870/d8498ae8-dedc-4050-bcfe-ed7bc428f3d6" width="700">
 
-#### ◾ roBERTa
+#### ◾ RoBERTa
 <img src="https://github.com/Aribabo/Matchuri/assets/137020870/4979cdcf-e447-4d4b-b51e-0393d02f881a" width="700">
 
 

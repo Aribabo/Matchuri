@@ -8,7 +8,7 @@
 
 * 수수께끼 퀴즈를 챗봇과 대화하며 푸는 챗봇
 * 레이튼 교수와 이상한 마을에서 영감을 받아 교수와 조수 컨셉
-* 문제 별로 stage를 구성해 챗봇과 대화 + 힌트 + 답 기능 구현
+* 문제 별로 Stage를 구성해 챗봇과 대화 + 힌트 + 답 기능 구현
 
   
 <h3> 👩‍💻 역할 </h3>
@@ -26,27 +26,27 @@
 <h3>📌 사용 데이터셋 및 모델 </h3>  
 
 #### ◾ 직접 작성한 질문-답 데이터셋
-<img src="https://github.com/Aribabo/Matchuri/assets/137020870/0b9ce052-f534-45b5-b4ba-c28cb82abcf9" height="300">
+<img src="https://github.com/Aribabo/Matchuri/assets/137020870/0b9ce052-f534-45b5-b4ba-c28cb82abcf9" width="700">
 
 #### ◾ GPT2 : skt/kogpt2-base-v2
-<img src="https://github.com/Aribabo/Matchuri/assets/137020870/d8498ae8-dedc-4050-bcfe-ed7bc428f3d6" height="300">
+<img src="https://github.com/Aribabo/Matchuri/assets/137020870/d8498ae8-dedc-4050-bcfe-ed7bc428f3d6" width="700">
 
 #### ◾ roBERTa
-<img src="https://github.com/Aribabo/Matchuri/assets/137020870/4979cdcf-e447-4d4b-b51e-0393d02f881a" height="300">
+<img src="https://github.com/Aribabo/Matchuri/assets/137020870/4979cdcf-e447-4d4b-b51e-0393d02f881a" width="700">
 
 
 <h3>✨ 알고리즘 </h3>  
 
 <p>
-  <img src="https://github.com/Aribabo/Matchuri/assets/137020870/96359082-441a-4fa4-ab06-937fa36ec960" height="300">
-  <img src="https://github.com/Aribabo/Matchuri/assets/137020870/04e18c6d-d46b-4324-a7c1-719dff462bb2" height="300">
+  <img src="https://github.com/Aribabo/Matchuri/assets/137020870/96359082-441a-4fa4-ab06-937fa36ec960" width="700">
+  <img src="https://github.com/Aribabo/Matchuri/assets/137020870/04e18c6d-d46b-4324-a7c1-719dff462bb2" width="700">
 </p>
 
 <h3>💻 서비스 화면</h3>
 <p>
 
-  <img src="https://github.com/Aribabo/Matchuri/assets/137020870/4dc3aba7-1b15-491a-9286-d4d3b2b2e7c0" height="300">
-  <img src="https://github.com/Aribabo/Matchuri/assets/137020870/c1d95388-d584-44ec-b765-debe5272c0a3"height="290">
+  <img src="https://github.com/Aribabo/Matchuri/assets/137020870/4dc3aba7-1b15-491a-9286-d4d3b2b2e7c0" width="700">
+  <img src="https://github.com/Aribabo/Matchuri/assets/137020870/c1d95388-d584-44ec-b765-debe5272c0a3"width="700">
 
 </p>
 

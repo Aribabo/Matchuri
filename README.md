@@ -1,5 +1,5 @@
-# Matchuri
-수수께기 챗봇 추리추리 "마추리"
+# Matchuri 
+수수께끼 챗봇 추리추리 "마추리"
 
 
 <h1>Project 개요</h1>

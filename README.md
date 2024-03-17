@@ -67,3 +67,8 @@
 
   
 </p>
+
+<h3> 
+  
+  📰 자세한 내용은 [PPT](https://github.com/Aribabo/Matchuri/blob/main/%EB%A7%88%EC%B6%94%EB%A6%AC%20ppt.pdf)에서 확인할 수 있습니다. 
+</h3>  

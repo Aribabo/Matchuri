@@ -71,4 +71,6 @@
 <h3> 
   
   📰 자세한 내용은 [PPT](https://github.com/Aribabo/Matchuri/blob/main/%EB%A7%88%EC%B6%94%EB%A6%AC%20ppt.pdf)에서 확인할 수 있습니다. 
+  <br><br>
+  ⭐ [이정흔 포트폴리오](https://aribabo.notion.site/399066a49983499c9a259bb3bf7b784d?pvs=4)에서 이력서와 다른 프로젝트 정보도 확인할 수 있습니다.
 </h3>  
